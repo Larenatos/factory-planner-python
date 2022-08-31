@@ -1,0 +1,152 @@
+{
+    "name": "Computer",
+    "recipe_name": "Alternate: Caterium Computer",
+    "building_count": 8.8,
+    "amount": 33.0,
+    "input": [
+        {
+            "name": "Circuit Board",
+            "recipe_name": "Alternate: Caterium Circuit Board",
+            "building_count": 26.4,
+            "amount": 231.0,
+            "input": [
+                {
+                    "name": "Plastic",
+                    "recipe_name": "Alternate: Recycled Plastic",
+                    "building_count": 5.5,
+                    "amount": 330.0,
+                    "input": [
+                        {
+                            "name": "Rubber",
+                            "recipe_name": "Rubber",
+                            "building_count": 8.25,
+                            "amount": 165.0,
+                            "input": [
+                                {
+                                    "name": "Crude Oil",
+                                    "amount": 247.5
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Fuel",
+                            "recipe_name": "Alternate: Diluted Fuel",
+                            "building_count": 1.65,
+                            "amount": 165.0,
+                            "input": [
+                                {
+                                    "name": "Heavy Oil Residue",
+                                    "recipe_name": "Alternate: Heavy Oil Residue",
+                                    "building_count": 2.0625,
+                                    "amount": 82.5,
+                                    "input": [
+                                        {
+                                            "name": "Crude Oil",
+                                            "amount": 61.875
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Water",
+                                    "amount": 165.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Quickwire",
+                    "recipe_name": "Quickwire",
+                    "building_count": 16.5,
+                    "amount": 990.0,
+                    "input": [
+                        {
+                            "name": "Caterium Ingot",
+                            "recipe_name": "Alternate: Pure Caterium Ingot",
+                            "building_count": 16.5,
+                            "amount": 198.0,
+                            "input": [
+                                {
+                                    "name": "Caterium Ore",
+                                    "amount": 396.0
+                                },
+                                {
+                                    "name": "Water",
+                                    "amount": 396.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Quickwire",
+            "recipe_name": "Quickwire",
+            "building_count": 15.4,
+            "amount": 924.0,
+            "input": [
+                {
+                    "name": "Caterium Ingot",
+                    "recipe_name": "Alternate: Pure Caterium Ingot",
+                    "building_count": 15.4,
+                    "amount": 184.8,
+                    "input": [
+                        {
+                            "name": "Caterium Ore",
+                            "amount": 369.6
+                        },
+                        {
+                            "name": "Water",
+                            "amount": 369.6
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Rubber",
+            "recipe_name": "Alternate: Recycled Rubber",
+            "building_count": 6.6,
+            "amount": 396.0,
+            "input": [
+                {
+                    "name": "Plastic",
+                    "recipe_name": "Plastic",
+                    "building_count": 9.9,
+                    "amount": 198.0,
+                    "input": [
+                        {
+                            "name": "Crude Oil",
+                            "amount": 297.0
+                        }
+                    ]
+                },
+                {
+                    "name": "Fuel",
+                    "recipe_name": "Alternate: Diluted Fuel",
+                    "building_count": 1.98,
+                    "amount": 198.0,
+                    "input": [
+                        {
+                            "name": "Heavy Oil Residue",
+                            "recipe_name": "Alternate: Heavy Oil Residue",
+                            "building_count": 2.475,
+                            "amount": 99.0,
+                            "input": [
+                                {
+                                    "name": "Crude Oil",
+                                    "amount": 74.25
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Water",
+                            "amount": 198.0
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

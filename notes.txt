@@ -1,0 +1,52 @@
+factory planner notes
+
+each file like class
+cause they have similar functions inside them
+some have more and others less
+a function is a small program that we call and it does the things inside it 
+example it can just print stuff (example functions)
+
+
+instructions:
+we start with draw function (exists in every file we use)
+then we just write a lot of text for information like what satisfactory is and how to use this program
+
+then we get to more interesting stuff
+first we have this position and dimensions things that look like functions
+they are not well kinda yes but the are named tuples
+those are created with function we get from collections
+it takes 2 parameters (name, value)
+and return a thing that can be called elsewhere
+and for value we can enter example x and y and just use like position.x and dimensions.width
+
+then even more interesting thing is class Button
+if we want to create a object with class we need contructor and here we use __init__ (initialize)
+and inside there we assign things to self which is the class object and those values can be used elsewhere
+and inside methods for that object
+methods are just a specific ways to do something like __init__ is method and every class here has
+but they do different things
+
+to use variables assigned to self(this object) we need to pass this self into each method where we assign or use stuff
+also all the classes here have this check_click or onclick and that just checks if user clicked on this object 
+and does the things we want to happen on the onclick
+
+return to instructions 
+we can also use those variables set for the object outside the class code
+like here button_next.draw()
+
+we have set the functions we call on the onclick on the making of interactions
+
+
+T.TRACER
+
+why is this faster
+turtle does only 1 process which is making the information and data and not drawing
+since normally half of the process is data and other half drawing 
+
+
+IMPORTING
+
+with just import gets the hole file so anything in there can be used
+with from somewhere import something
+it checks the scope of the import so indent if you import 1 function from there and have imports around it
+it will import those as well since they were in the same scope
